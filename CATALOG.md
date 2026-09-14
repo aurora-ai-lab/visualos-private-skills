@@ -21,3 +21,7 @@
 ## X 帖子提纯 Skill
 
 新增 6 个来源方法改写 Skill：candid-life-photo、editorial-emotion-control、style-revival-editor、prompt-batch-conductor、discreet-candid-character、photo-revival-poster。
+
+## UI GPT SKIL
+
+Imported from [greensock/gsap-skills](https://github.com/greensock/gsap-skills) for UI GPT workflows. Source snapshot downloaded on 2026-09-14.
