@@ -6,7 +6,7 @@
 
 视觉创作 · Agent 技能 · 界面动效
 
-[![Documentation check](https://github.com/aurora9986/visualos-private-skills/actions/workflows/docs-check.yml/badge.svg)](https://github.com/aurora9986/visualos-private-skills/actions/workflows/docs-check.yml)
+[![Documentation check](https://github.com/aurora-ai-lab/visualos-private-skills/actions/workflows/docs-check.yml/badge.svg)](https://github.com/aurora-ai-lab/visualos-private-skills/actions/workflows/docs-check.yml)
 [![20 skills](https://img.shields.io/badge/skills-20-7657ff?style=flat-square)](CATALOG.md)
 [![Topics](https://img.shields.io/badge/focus-AI%20%2B%20visual%20systems-111827?style=flat-square)](CATALOG.md)
 
@@ -75,4 +75,5 @@ AUR 是个人整理与适配的技能集合。各目录可能有不同的来源�
 ## Changelog
 
 查看 [CHANGELOG.md](CHANGELOG.md) 了解项目变化。
+
 
