@@ -2,7 +2,7 @@
 
 Use the invocation name below after the skill is installed and available in your current Codex environment. Folder labels may differ from the `name` in `SKILL.md`. Skill instructions do not by themselves supply an image model or API service.
 
-19 callable skill entrypoints and 1 incomplete source folder are documented.
+20 callable skill entrypoints and 1 incomplete source folder are documented.
 
 ## VisualOS
 
@@ -32,6 +32,12 @@ Use the invocation name below after the skill is installed and available in your
 | [GSAP Plugins](gsap-skills/gsap-plugins/USAGE.md) | `gsap-skills/gsap-plugins` | `$gsap-plugins` | Use advanced plugins for dragging, text, SVG and layout transitions. |
 | [GSAP Performance](gsap-skills/gsap-performance/USAGE.md) | `gsap-skills/gsap-performance` | `$gsap-performance` | Reduce animation jank and unnecessary layout or rendering work. |
 | [GSAP Utilities](gsap-skills/gsap-utils/USAGE.md) | `gsap-skills/gsap-utils` | `$gsap-utils` | Use interpolation, mapping, clamping, snapping and related helpers. |
+
+## Apple Design
+
+| Skill | Folder | Invocation | Purpose |
+|---|---|---|---|
+| [Apple Design](apple-design/SKILL.md) | apple-design | $apple-design | Design interface hierarchy, navigation, components and accessibility using Apple's official Human Interface Guidelines. Marked Internal-use in the skill license field. |
 
 ## Incomplete source folder
 

@@ -1,0 +1,18 @@
+name: 文档或技能问题
+about: 报告调用名、链接、说明或技能行为问题
+labels: documentation
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: 技能名称
+      placeholder: 例如 nuyoah-image-reverse-prompt
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 问题描述
+      description: 请提供使用环境、输入、实际结果和期望结果。
+    validations:
+      required: true

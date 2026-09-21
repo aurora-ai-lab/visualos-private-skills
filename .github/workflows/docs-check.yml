@@ -1,0 +1,34 @@
+name: Documentation check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check catalog count and local links
+        shell: pwsh
+        run: |
+          $catalog = Get-Content ./CATALOG.md -Raw
+          if ($catalog -notmatch '20 callable skill entrypoints') {
+            throw 'CATALOG.md must declare 20 callable skill entrypoints.'
+          }
+          $files = @('./README.md', './CATALOG.md')
+          foreach ($file in $files) {
+            $text = Get-Content $file -Raw
+            foreach ($match in [regex]::Matches($text, '\]\(([^)]+)\)')) {
+              $target = $match.Groups[1].Value
+              if ($target -notmatch '^https?://' -and -not (Test-Path (Join-Path $PWD $target))) {
+                throw "Broken local link in $file`: $target"
+              }
+            }
+          }
+          Write-Host 'Documentation checks passed.'
