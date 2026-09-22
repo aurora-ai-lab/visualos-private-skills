@@ -2,7 +2,7 @@
 
 Use the invocation name below after the skill is installed and available in your current Codex environment. Folder labels may differ from the `name` in `SKILL.md`. Skill instructions do not by themselves supply an image model or API service.
 
-23 callable skill entrypoints and 1 incomplete source folder are documented.
+24 callable skill entrypoints and 1 incomplete source folder are documented.
 
 ## VisualOS
 
@@ -19,8 +19,9 @@ Use the invocation name below after the skill is installed and available in your
 | [Fashion Sketch Portrait](fashion-sketch-portrait/USAGE.md) | `fashion-sketch-portrait` | `$fashion-sketch-portrait` | Redraw a person photo as a high-fashion semi-realistic hand-drawn portrait, preserving identity, hair, clothing colors and props on a near-white paper ground. |
 | [Photo-to-Poster Direction](photo-revival-poster/USAGE.md) | `photo-revival-poster` | `$photo-revival-poster` | Define consistent composition, color, material and typography rules for photo-based editorial posters. |
 | [Batch Visual Prompts](prompt-batch-conductor/USAGE.md) | `prompt-batch-conductor` | `$prompt-batch-conductor` | Plan distinct visual directions and produce consistent, independent prompts for a series. |
-| [AI Character Worldbuilder](ai-character-worldbuilder/USAGE.md) | i-character-worldbuilder | $ai-character-worldbuilder | Build a consistent original adult AI character, ongoing content series and conversion path. |
-| [Color Card Outfit Lab](color-card-outfit-lab/USAGE.md) | color-card-outfit-lab | $color-card-outfit-lab | Turn licensed reference-video structure into original color-card outfit stills and video prompts. |
+| [AI Character Worldbuilder](ai-character-worldbuilder/USAGE.md) | `ai-character-worldbuilder` | `$ai-character-worldbuilder` | Build a consistent original adult AI character, ongoing content series and conversion path. |
+| [Color Card Outfit Lab](color-card-outfit-lab/USAGE.md) | `color-card-outfit-lab` | `$color-card-outfit-lab` | Turn licensed reference-video structure into original color-card outfit stills and video prompts. |
+| [Douyin Character Studio](douyin-character-studio/USAGE.md) | `douyin-character-studio` | `$douyin-character-studio` | Combine an original AI character with VibeShot research to plan original Douyin series and low-cost video workflows. |
 
 ## UI GPT SKIL
 
@@ -53,4 +54,3 @@ Use the invocation name below after the skill is installed and available in your
 Original README files, license files and skill instructions are retained. VisualOS directory labels are organizational labels, not replacements for original authorship. The six adapted VisualOS prompt skills describe their origins in their own `Provenance` sections.
 
 GSAP skills were imported from [greensock/gsap-skills](https://github.com/greensock/gsap-skills) and are grouped under **UI GPT SKIL**. The separate `ui-gpt-skil` entry contains motion-direction guidance and the user-supplied Vibe Coding motion dictionary.
-

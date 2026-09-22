@@ -7,7 +7,7 @@
 视觉创作 · Agent 技能 · 界面动效
 
 [![Documentation check](https://github.com/aurora-ai-lab/visualos-private-skills/actions/workflows/docs-check.yml/badge.svg)](https://github.com/aurora-ai-lab/visualos-private-skills/actions/workflows/docs-check.yml)
-[![23 skills](https://img.shields.io/badge/skills-21-7657ff?style=flat-square)](CATALOG.md)
+[![24 skills](https://img.shields.io/badge/skills-24-7657ff?style=flat-square)](CATALOG.md)
 [![Topics](https://img.shields.io/badge/focus-AI%20%2B%20visual%20systems-111827?style=flat-square)](CATALOG.md)
 
 </div>
@@ -24,7 +24,7 @@ A personal library of reusable skills for turning references, ideas, and interac
 | **Portrait & Editorial** | 规划写真分镜、人物情绪、姿态和摄影语言 | [Portrait Direction](portrait-scene-director/USAGE.md) |
 | **Photo → Sketch** | 把人物照片重绘成时尚手绘肖像，保留脸型、发型、服装原色和道具 | [Fashion Sketch Portrait](fashion-sketch-portrait/USAGE.md) |
 | **Poster & Zine** | 制作纸感海报、照片拼贴和编辑式视觉方案 | [Paper Posters](paper-editorial-maker/USAGE.md) · [Zine](photo-zine-composer/USAGE.md) |
-| **Visual Systems** | 统一系列风格，组织批量提示词和视觉变化 | [Batch Prompts](prompt-batch-conductor/USAGE.md) |
+| **Visual Systems** | 统一系列风格，组织批量提示词和视觉变化 | [Batch Prompts](prompt-batch-conductor/USAGE.md) · [Douyin Character Studio](douyin-character-studio/USAGE.md) |
 | **Motion & UI** | 把交互想法转成触发器、时间、缓动和 GSAP 实现 | [Motion Direction](ui-gpt-skil/USAGE.md) · [GSAP](gsap-skills/gsap-core/USAGE.md) |
 | **Apple-inspired UI** | 依据 Apple HIG 组织层级、导航、组件和无障碍体验 | [Apple Design](apple-design/SKILL.md) |
 
@@ -53,12 +53,12 @@ $ui-gpt-skil
 
 ## Library map
 
-- **VisualOS**：13 个视觉创作技能，覆盖参考图、人像、时尚手绘、海报、Zine 和系列提示词。
+- **VisualOS**：14 个视觉创作技能，覆盖参考图、人像、时尚手绘、海报、Zine 和系列提示词。
 - **UI GPT SKIL**：动效设计入口，以及 `gsap-skills/` 下的 8 个 GSAP 技能。
 - **Apple Design**：基于 Apple 官方 Human Interface Guidelines 的界面设计指导。
 - **Archive**：`character-continuity-lab/` 目前是资料归档，缺少 `SKILL.md`，暂不可调用。
 
-当前共有 **23 个技能入口**。完整用途、目录和调用名见 [CATALOG.md](CATALOG.md)。
+当前共有 **24 个技能入口**。完整用途、目录和调用名见 [CATALOG.md](CATALOG.md)。
 
 ## Contributing
 
@@ -76,4 +76,3 @@ AUR 是个人整理与适配的技能集合。各目录可能有不同的来源�
 ## Changelog
 
 查看 [CHANGELOG.md](CHANGELOG.md) 了解项目变化。
-
