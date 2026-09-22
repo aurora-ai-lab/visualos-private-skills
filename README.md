@@ -7,7 +7,7 @@
 视觉创作 · Agent 技能 · 界面动效
 
 [![Documentation check](https://github.com/aurora-ai-lab/visualos-private-skills/actions/workflows/docs-check.yml/badge.svg)](https://github.com/aurora-ai-lab/visualos-private-skills/actions/workflows/docs-check.yml)
-[![21 skills](https://img.shields.io/badge/skills-21-7657ff?style=flat-square)](CATALOG.md)
+[![23 skills](https://img.shields.io/badge/skills-21-7657ff?style=flat-square)](CATALOG.md)
 [![Topics](https://img.shields.io/badge/focus-AI%20%2B%20visual%20systems-111827?style=flat-square)](CATALOG.md)
 
 </div>
@@ -53,12 +53,12 @@ $ui-gpt-skil
 
 ## Library map
 
-- **VisualOS**：11 个视觉创作技能，覆盖参考图、人像、时尚手绘、海报、Zine 和系列提示词。
+- **VisualOS**：13 个视觉创作技能，覆盖参考图、人像、时尚手绘、海报、Zine 和系列提示词。
 - **UI GPT SKIL**：动效设计入口，以及 `gsap-skills/` 下的 8 个 GSAP 技能。
 - **Apple Design**：基于 Apple 官方 Human Interface Guidelines 的界面设计指导。
 - **Archive**：`character-continuity-lab/` 目前是资料归档，缺少 `SKILL.md`，暂不可调用。
 
-当前共有 **21 个技能入口**。完整用途、目录和调用名见 [CATALOG.md](CATALOG.md)。
+当前共有 **23 个技能入口**。完整用途、目录和调用名见 [CATALOG.md](CATALOG.md)。
 
 ## Contributing
 
@@ -76,3 +76,4 @@ AUR 是个人整理与适配的技能集合。各目录可能有不同的来源�
 ## Changelog
 
 查看 [CHANGELOG.md](CHANGELOG.md) 了解项目变化。
+

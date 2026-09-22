@@ -18,8 +18,8 @@ jobs:
         shell: pwsh
         run: |
           $catalog = Get-Content ./CATALOG.md -Raw
-          if ($catalog -notmatch '21 callable skill entrypoints') {
-            throw 'CATALOG.md must declare 21 callable skill entrypoints.'
+          if ($catalog -notmatch '23 callable skill entrypoints') {
+            throw 'CATALOG.md must declare 23 callable skill entrypoints.'
           }
           $files = @('./README.md', './CATALOG.md')
           foreach ($file in $files) {
@@ -32,3 +32,4 @@ jobs:
             }
           }
           Write-Host 'Documentation checks passed.'
+
