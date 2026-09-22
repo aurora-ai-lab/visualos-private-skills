@@ -2,7 +2,7 @@
 
 Use the invocation name below after the skill is installed and available in your current Codex environment. Folder labels may differ from the `name` in `SKILL.md`. Skill instructions do not by themselves supply an image model or API service.
 
-20 callable skill entrypoints and 1 incomplete source folder are documented.
+21 callable skill entrypoints and 1 incomplete source folder are documented.
 
 ## VisualOS
 
@@ -16,6 +16,7 @@ Use the invocation name below after the skill is installed and available in your
 | [Staged Candid Characters](discreet-candid-character/USAGE.md) | `discreet-candid-character` | `$discreet-candid-character` | Write staged public-scene prompts for fictional adult characters with occlusion and telephoto framing. |
 | [Portrait Emotion Direction](editorial-emotion-control/USAGE.md) | `editorial-emotion-control` | `$editorial-emotion-control` | Control subtle expressions, posture and lighting in portrait prompts. |
 | [Photo Style Transformation](style-revival-editor/USAGE.md) | `style-revival-editor` | `$style-revival-editor` | Translate photos into illustration, paper, hand-drawn or retro styles while preserving key features. |
+| [Fashion Sketch Portrait](fashion-sketch-portrait/USAGE.md) | `fashion-sketch-portrait` | `$fashion-sketch-portrait` | Redraw a person photo as a high-fashion semi-realistic hand-drawn portrait, preserving identity, hair, clothing colors and props on a near-white paper ground. |
 | [Photo-to-Poster Direction](photo-revival-poster/USAGE.md) | `photo-revival-poster` | `$photo-revival-poster` | Define consistent composition, color, material and typography rules for photo-based editorial posters. |
 | [Batch Visual Prompts](prompt-batch-conductor/USAGE.md) | `prompt-batch-conductor` | `$prompt-batch-conductor` | Plan distinct visual directions and produce consistent, independent prompts for a series. |
 
